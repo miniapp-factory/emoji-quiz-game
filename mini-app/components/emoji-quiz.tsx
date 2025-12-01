@@ -8,9 +8,9 @@ import { cn } from "@/lib/utils";
 
 export default function EmojiQuiz() {
   const puzzles = [
-    { emojis: "🍕🍔", answer: "pizza burger" },
-    { emojis: "🏠🚪", answer: "home door" },
-    { emojis: "🐶🐱", answer: "dog cat" },
+    { emojis: "🍕🍔", answer: "pizza burger", hint: "A popular fast‑food combo" },
+    { emojis: "🏠🚪", answer: "home door", hint: "Where you enter a house" },
+    { emojis: "🐶🐱", answer: "dog cat", hint: "Two common household pets" },
   ];
 
   const [index, setIndex] = useState(0);
@@ -53,7 +53,7 @@ export default function EmojiQuiz() {
         <Button onClick={handleSubmit} disabled={disabled} className="w-full">
           Submit
         </Button>
-        <p className="mt-1 text-xs text-muted-foreground text-center">Press Enter or click Submit to check your answer.</p>
+        <p className="mt-1 text-xs text-muted-foreground text-center">{current.hint}</p>
         {feedback && (
           <p className={cn("mt-2 text-center", feedback === "Correct!" ? "text-green-600" : "text-red-600")}>
             {feedback}
