@@ -28,3 +28,11 @@
 
 # 2025-12-01 06:06:32.787449
 +put a hint under the submit button
+
+# 2025-12-01 06:28:24.091169
++Emoji Quiz Game that displays 1 to 3 emojis which together represent a single word, phrase, or movie. The user should type their combined answer in a text box and click a Submit button, after which the app will indicate whether the guess is correct or wrong. Below the Submit button, display a hint text that gives the user a small clue about the answer. The game should keep track of the user’s score and show a new set of emojis for the next puzzle after each guess. Include a small predefined list of emoji combinations with their correct answers, and make the interface visually simple and mobile-friendly.
++
+
+# 2025-12-01 06:28:24.095734
++Emoji Quiz Game that displays 1 to 3 emojis which together represent a single word, phrase, or movie. The user should type their combined answer in a text box and click a Submit button, after which the app will indicate whether the guess is correct or wrong. Below the Submit button, display a hint text that gives the user a small clue about the answer. The game should keep track of the user’s score and show a new set of emojis for the next puzzle after each guess. Include a small predefined list of emoji combinations with their correct answers, and make the interface visually simple and mobile-friendly.
++
