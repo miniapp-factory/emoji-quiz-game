@@ -53,6 +53,7 @@ export default function EmojiQuiz() {
         <Button onClick={handleSubmit} disabled={disabled} className="w-full">
           Submit
         </Button>
+        <p className="mt-1 text-xs text-muted-foreground text-center">Press Enter or click Submit to check your answer.</p>
         {feedback && (
           <p className={cn("mt-2 text-center", feedback === "Correct!" ? "text-green-600" : "text-red-600")}>
             {feedback}
